@@ -14,7 +14,7 @@ const ProductsList = ({ dataApi, deleteProduct, editProduct }) => {
 			cancelButtonColor: "#d33",
 			confirmButtonText: "Eliminar",
 			cancelButtonText: "Cancelar",
-			imageUrl: 'public/fruta-pensante.png',
+			imageUrl: '/fruta-pensante.png',
 			imageWidth:'30%'
 
 		}).then((result) => {
@@ -22,7 +22,7 @@ const ProductsList = ({ dataApi, deleteProduct, editProduct }) => {
 				Swal.fire({
 					title: '<h1 class="red">¡Eliminado!</h1>',
 					html: '<b class="green">El producto se eliminó correctamente.</b>',
-					imageUrl: 'public/papaya-podrida.png',
+					imageUrl: '/papaya-podrida.png',
 					imageWidth:'30%',
 					background: "#0A1C3E",
 
@@ -32,7 +32,7 @@ const ProductsList = ({ dataApi, deleteProduct, editProduct }) => {
 				Swal.fire({
 					title: '<h1 class="orange">Información</h1>',
 					html: '<b class="green">El producto NO fue eliminado.</b>',
-					imageUrl: 'public/brocoli-asustado.png',
+					imageUrl: '/brocoli-asustado.png',
 					imageWidth:'30%',
 					background: "#0A1C3E",
 					
